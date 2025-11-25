@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio - Angeline Urriola</title>
+
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #1F1D22; /* Negro suave */
+      color: #D9C47F; /* Beige claro */
+    }
+
+    /* HEADER CON IMAGEN */
+    header {
+      background: url('imagenes/arr.jpg') center/cover no-repeat;
+      text-align: center;
+      padding: 4rem 2rem;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 4px solid #C33A4A;
+    }
+
+    nav {
+      background: #463A2D;
+      display: flex;
+      justify-content: center;
+      gap: 3rem;
+      padding: 1.5rem;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: #D9C47F;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover { color: #C33A4A; }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: #2B2520;
+      padding: 2rem;
+      border-radius: 10px;
+      border-left: 6px solid #9A8967;
+    }
+
+    h2 { text-align: center; color: #C33A4A; }
+
+    .project-item {
+      background: #463A2D;
+      padding: 1.2rem;
+      margin: 1rem 0;
+      border: 2px solid #D9C47F;
+      text-align: center;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+    .project-item:hover { background: #9A8967; }
+
+    .project-item a { color: #D9C47F; text-decoration: none; }
+
+    footer { text-align: center; padding: 2rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Mi Portafolio</h1>
+  <p>Programación I - Universidad Tecnológica de Panamá</p>
+</header>
+
+<nav>
+  <a href="#sobre-mi">Sobre mí</a>
+  <a href="#expectativas">Expectativas</a>
+  <a href="#materia">¿Qué es la materia?</a>
+  <a href="#proyectos">Proyectos</a>
+</nav>
+
+<section id="sobre-mi">
+  <h2>Sobre mí</h2>
+  <p>Hola, soy Angeline Urriola, estudiante de ciberseguridad.</p>
+</section>
+
+<section id="expectativas">
+  <h2>Expectativas</h2>
+  <p>Mi meta es aprender a programar con facilidad.</p>
+</section>
+
+<section id="materia">
+  <h2>¿Qué es la materia?</h2>
+  <p>Programación I nos enseña lógica para crear programas desde cero.</p>
+</section>
+
+<!-- 🔥 AQUÍ ESTÁ LO IMPORTANTE: LOS ENLACES FUNCIONALES 🔥 -->
+<section id="proyectos">
+<div class="project-item"><a href="Ejercicios_Practicos/ejercicios_practicos.html">Ejercicios Prácticos</a></div>
+<div class="project-item"><a href="Investigaciones/investigaciones.html">Investigaciones</a></div>
+<div class="project-item"><a href="Laboratorios/laboratorios.html">Laboratorios</a></div>
+<div class="project-item"><a href="Parciales/parciales.html">Parciales</a></div>
+</section>
+
+<footer>
+  <p>© 2025 Angeline Urriola - Portafolio de Programación I</p>
+</footer>
+</body>
+</html>
